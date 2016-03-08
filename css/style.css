@@ -241,4 +241,32 @@ footer {
 .left {
     width: 220px;
     float: left;
+    margin-top: 20px;
+}
+
+.right {
+    width: 740px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.child-container {
+    font-family: SimSun, sans-serif,Helvetica;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.child-container-title span {
+    font-family: "Microsoft YaHei";
+    font-size: 150%;
+}
+
+.position {
+    float: right;
+}
+
+.child-container-main p {
+    font-size: 120%;
+    text-indent: 2em;
 }
