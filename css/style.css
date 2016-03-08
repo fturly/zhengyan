@@ -180,7 +180,7 @@ nav ul li a{
     font-size: 125%;
 }
 
-.catalogue li a {
+.cat-content li a {
     background-color: #ededed;
     background-repeat: no-repeat;
     display: block;
@@ -190,18 +190,18 @@ nav ul li a{
     line-height: 37px;
 }
 
-.catalogue li a:hover {
+.cat-content li a:hover {
     text-decoration: underline;
 }
 
-.catalogue li a.main {
+.cat-content li a.main {
     background-image: url("../img/main-ul-bg.png");
     padding-left: 30px;
     background-position: 5% 50%;
     color: #1579c6;
 }
 
-.catalogue li a.sub {
+.cat-content li a.sub {
     background-position: 15% 50%;
     padding-left: 45px;
     background-image: url("../img/a-sub-bg.png");
@@ -232,4 +232,13 @@ footer {
     height: 42px;
     line-height: 42px;
     color: #797979;
+}
+
+
+
+
+/*About.html*/
+.left {
+    width: 220px;
+    float: left;
 }
