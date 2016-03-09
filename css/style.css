@@ -34,11 +34,10 @@ ul {
     display: block;
 }
 
-
 /* HEADER */
 .logo {
     padding-top: 10px;
-    float:left;
+    float: left;
 }
 
 .top-right {
@@ -76,7 +75,6 @@ ul {
     font-size: 1.2em;
 }
 
-
 /*  NAV   */
 nav {
     background: url("../img/nav-bg.png") repeat-x;
@@ -105,7 +103,8 @@ nav ul li:hover {
 nav ul li:last-child {
     border-right: 1px solid #6a98d7;
 }
-nav ul li a{
+
+nav ul li a {
     height: 31px;
     line-height: 31px;
     text-align: center;
@@ -115,13 +114,11 @@ nav ul li a{
 
 /* BANNER  */
 
-
 /*  MAIN WRAPPER */
 
 .wrapper {
     margin-top: 20px;
 }
-
 
 .outer-wrapper {
     width: 75%;
@@ -149,17 +146,17 @@ nav ul li a{
     display: inline-block;
     width: 39px;
     height: 11px;
-    float:right;
-    margin-top:4px;
+    float: right;
+    margin-top: 4px;
 }
 
 .product-unit {
     float: left;
-    width: 170px;
+    width: 165px;
     height: 180px;
     border: 3px solid #71aede;
     text-align: center;
-    margin:5px;
+    margin: 5px;
 }
 
 .product-unit p {
@@ -207,13 +204,12 @@ nav ul li a{
     background-image: url("../img/a-sub-bg.png");
     color: #000;
 }
+
 .main-li {
 
     padding-left: 25px;
     margin-left: 25px;
 }
-
-
 
 /*  FOOTER  */
 footer {
@@ -235,11 +231,12 @@ footer {
 }
 
 .footer-text {
-    float:left;
+    float: left;
     margin-left: 20px;
     color: #165898;
     font-size: 133%;
 }
+
 /*
 .copy {
     background-color: #151515;
@@ -257,6 +254,7 @@ footer {
     height: 216px;
     padding-left: 10px;
     padding-top: 5px;
+    margin-top: 10px;
 }
 
 .side-content p {
@@ -268,9 +266,46 @@ footer {
     font-size: 120%;
 }
 
+/*  PAGER STYLE */
+.pager {
+    margin: 20px auto;
+}
 
+.pager ul {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.pager ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
 
+.pager ul li.thisclass {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #3baff7;
+    color: #fff;
+    margin: 0;
+    border-radius: 3px;
+}
+
+.pager ul li a {
+    display: block;
+    background: #ccc;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.pager ul li a:hover {
+    background: #3baff7;
+}
 
 /*About.html*/
 .left {
@@ -287,8 +322,8 @@ footer {
 }
 
 .child-container {
-    font-family: "Microsoft YaHei", sans-serif,Helvetica;
-    width: 95%;
+    font-family: "Microsoft YaHei", sans-serif, Helvetica;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -305,7 +340,91 @@ footer {
     display: none;
 }
 
-.child-container-main p {
+.about-container {
+    color: #666666;
+}
+
+.about-container p {
     font-size: 120%;
+    text-indent: 2em;
+}
+
+.about-container h1 {
+    font-size: 120%;
+}
+/* NEWS-LIST */
+.news-list ul {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.news-list ul li {
+    border-bottom:  1px dashed #d5d5d5;
+    margin: 3px 0;
+    width: 100%;
+    color: #5a5a5a;
+}
+
+.news-list ul li span {
+    float: right;
+}
+/* NEWS-DETAILS*/
+.sub-title {
+    text-align: center;
+}
+
+.sub-title h1 {
+    font-size: 133%;
+    color: #5a5a5a;
+}
+
+.sub-title p {
+    font-family: "Microsoft YaHei",Helvetica,SansSerif;
+
+}
+
+
+
+/*PRODUCT  LIST*/
+.product-list {
+    margin-top: 20px;
+}
+
+
+/*PRODUCT DETAILS*/
+.product-main-up img {
+    float: left;
+}
+.product-name {
+    float: left;
+    margin-left: 30px;
+}
+
+.product-name h1 {
+    color: #64b2ec;
+    margin-top: 10px;
+    font-family: "Microsoft YaHei", Helvetica, SansSerif;
+    font-size: 150%;
+}
+
+.product-caption {
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-size: 120%;
+    color: #165898;
+    background-color: #e7f3ff;
+}
+
+
+/*CONTACT*/
+.contact-main p {
+    margin: 3px auto;
+}
+
+
+
+/*FAQ*/
+.news-details-container .sub-content p ,.faq-d .sub-content p {
     text-indent: 2em;
 }
