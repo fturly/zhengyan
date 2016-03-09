@@ -217,9 +217,7 @@ nav ul li a{
 
 /*  FOOTER  */
 footer {
-    background-color: #165898;
-    text-align: center;
-    color: #fff;
+
 }
 
 .footer {
@@ -227,12 +225,29 @@ footer {
     font-size: 120%;
 }
 
+.light-blue {
+    background-color: #165898;
+    height: 10px;
+}
+
+.footer-container img {
+    margin-top: 10px;
+}
+
+.footer-text {
+    float:left;
+    margin-left: 20px;
+    color: #165898;
+    font-size: 133%;
+}
+/*
 .copy {
     background-color: #151515;
     height: 42px;
     line-height: 42px;
     color: #797979;
 }
+*/
 
 /* SideBar Content */
 .side-content {
@@ -272,18 +287,22 @@ footer {
 }
 
 .child-container {
-    font-family: SimSun, sans-serif,Helvetica;
+    font-family: "Microsoft YaHei", sans-serif,Helvetica;
     width: 95%;
     margin: 0 auto;
 }
 
 .child-container-title span {
-    font-family: "Microsoft YaHei";
     font-size: 150%;
+    background-image: url('../img/title-bg.png');
+    background-repeat: no-repeat;
+    background-position: left 3px;
+    padding-left: 25px;
 }
 
 .position {
     float: right;
+    display: none;
 }
 
 .child-container-main p {
