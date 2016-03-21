@@ -82,7 +82,7 @@ nav {
     padding-bottom: 11px;
 }
 
-nav ul {
+.nav-main {
     margin: 0 auto;
     width: 776px;
     background: url("../img/nav-ul-bg.png") no-repeat;
@@ -90,27 +90,52 @@ nav ul {
     padding-left: 75px;
 }
 
-nav ul li {
+.nav-main>li {
     /* display: inline-block; */
     float: left;
     border-left: 1px solid #6a98d7;
+    position: relative;
 }
 
-nav ul li:hover {
+.nav-main>li:hover {
     background-color: #234d8e;
 }
 
-nav ul li:last-child {
+.nav-main>li:last-child {
     border-right: 1px solid #6a98d7;
 }
 
-nav ul li a {
+.nav-main>li>a {
     height: 31px;
     line-height: 31px;
     text-align: center;
     padding: 0 2em;
     color: #fff;
 }
+
+.nav-main li:hover ul{
+    display: block;
+}
+
+.nav-sub {
+    position: absolute;
+    top: 31px;
+    display: none;
+    z-index: 99;
+    background-color: #5d7cb3;
+    width: 120px;
+}
+
+.nav-sub li:hover {
+    background-color: #234d8e;
+}
+
+.nav-sub li a {
+    padding: .5em 2em;
+    width: 120px;
+}
+
+
 
 /* BANNER  */
 
@@ -392,12 +417,20 @@ footer {
 
 
 /*PRODUCT DETAILS*/
-.product-main-up img {
+.product-main-up ul li{
     float: left;
+    margin: 0 10px;
 }
+
+.product-main-up ul li img {
+    max-width: 330px;
+    max-height: 330px;
+    width: 330px;
+    hright: 330px;
+}
+
 .product-name {
-    float: left;
-    margin-left: 30px;
+    text-align: center;
 }
 
 .product-name h1 {
